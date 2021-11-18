@@ -4,7 +4,7 @@ import './navBar.css'
 const NavBar = ({ scrolling }) => {
     return (
         <nav className={`navbar ${scrolling > 20 ? "scrolled" : null} `}>
-            <div >
+            <div className="navbar-logo">
                 go UP
             </div>
         </nav>
