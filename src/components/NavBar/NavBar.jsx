@@ -1,7 +1,8 @@
 import React from 'react'
 import './navBar.css'
 
-const NavBar = ({ scrolling }) => {
+const NavBar = ({ scrolling }) => { 
+    // Navbar recibe la position del eje Y, para activar las transitions.
     
     const toTheTop = () => {
         window.scrollTo({top: 0, left: 0, behavior:"smooth"})

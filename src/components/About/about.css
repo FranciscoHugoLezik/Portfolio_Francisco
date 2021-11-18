@@ -1,0 +1,41 @@
+.about-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about-text
+{
+    width: 45%;
+    margin-right: 5%;
+    padding-top: 6%;
+    justify-content: center;
+}
+
+.about-text > h3
+{
+    font-size: 30px;
+    padding-left: 2%;
+    padding-top: 2%;
+}
+
+.about-text > p
+{
+    padding: 2% 0 0 7%;
+}
+
+.about-img
+{
+    max-width: 50%;
+    margin: 0%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.about-img > img 
+{
+    width: 95%;
+    margin-left: 3%;
+    padding: 2% 0 0 0;
+}
