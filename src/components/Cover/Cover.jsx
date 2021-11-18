@@ -8,7 +8,8 @@ const Cover = () => {
            <div className="cover-container">
                <video className="video-cover" src={whiteM} autoPlay loop muted/>
                <h1>Juan Ignacio Solari</h1>
-               <p>Full Stack Developer</p>
+               <h3>Full Stack Developer</h3>
+               <p>JavaScript | React JS & Redux | PostgreSQL & Sequelize | Node js & Express</p>
                </div> 
         </>
     )
