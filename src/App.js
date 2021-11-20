@@ -3,6 +3,7 @@ import Cover from './components/Cover/Cover';
 import NavBar from './components/NavBar/NavBar';
 import About from './components/About/About';
 import './App.css';
+import Slider from './components/Slider/Slider';
 
 function App() {
   const [currentScroll, setCurrentScroll] = useState(0)
@@ -22,6 +23,7 @@ function App() {
       <NavBar scrolling={currentScroll} />
       <Cover />
       <About />
+      <Slider />
     </div>
   );
 }
