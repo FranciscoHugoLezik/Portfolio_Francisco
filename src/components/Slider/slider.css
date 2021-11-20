@@ -1,0 +1,13 @@
+.container-carousel
+{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-slaider 
+{
+    height: 350px;
+    display: flex;
+}
