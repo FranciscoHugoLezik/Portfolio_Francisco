@@ -8,6 +8,77 @@
 
 .container-slaider 
 {
-    height: 350px;
+    min-height: 500px;
     display: flex;
+    left: 0%;
+}
+
+.containerR 
+{
+    max-width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item 
+{
+    display: flex;
+    max-width: 35%;
+    min-height: 70%;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left
+{
+    flex: 4;
+    min-height: 80%;
+    text-align: center;
+}
+.leftContainer
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.leftContainer > h2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.leftContainer > p
+{
+    padding-left: 2%;
+}
+
+.btns-container
+{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.rigth
+{
+    flex: 8;
+}
+
+@media(max-width: 780px) {
+
+    .container-slaider 
+    {
+        max-height: 25%;
+    }
+
+    .item 
+    {
+        min-width: 70%;
+        height: 95%;
+    }
 }
