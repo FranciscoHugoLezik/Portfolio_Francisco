@@ -23,7 +23,7 @@ function App() {
       <NavBar scrolling={currentScroll} />
       <Cover />
       <About />
-      <Slider />
+      <Slider scrolling={currentScroll}/>
     </div>
   );
 }
