@@ -14,7 +14,7 @@ const data = [
     {
         id: 2,
         tittle: "PI - Games",
-        desc: "Proyecto individual en SoyHenry. Web donde se puede: realizar una búsqueda especifica de juegos y/o filtrarlos por género y origen (juegos de rawg.io API), y crear tus propios juegos",
+        desc: "Proyecto individual en SoyHenry. Web donde se puede: realizar una búsqueda especifica de juegos y/o filtrarlos por género y origen (juegos de rawg.io API), y crear tus propios juegos.",
         img: img2,
         gitLink: "https://github.com/JJSolari/PI-Videogames",
         deployLink: "https://www.linkedin.com/posts/juanignaciosolari_javascript-frontend-css-activity-6851650850293633024-UOYV"
