@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
+import data from './data'
 import { AiFillGithub } from "react-icons/ai";
 import { HiOutlineLink } from "react-icons/hi";
-import data from './data'
 import { MdArrowForwardIos } from "react-icons/md";
 
 import './slider.css'
@@ -16,7 +16,7 @@ const Slider = ({scrolling}) => {
 
     return (
         <div className="container-carousel" id="id">
-            <h1 className={`h1-mine ${scrolling > 897 ? "h1-mine-scrolled" : null} `}>Mis Proyectos</h1>
+            <h1 className={`h1-mine ${scrolling > 1000 ? "h1-mine-scrolled" : null} `}>Mis Proyectos</h1>
             <div className="container-slider"
             style={{transform: `translateX(-${currentSlide * 100}vw)` }}
             >

@@ -1,0 +1,41 @@
+.info-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: white;
+    margin-bottom: 100vh;
+}
+
+.text 
+{
+    display: flex;
+    flex-direction: row;
+    color: black;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.contact-me
+{
+    color: transparent;
+    padding-bottom: 10%;
+}
+
+.contact-scroll
+{
+    transition: all 4s ease-in-out;
+    color: black;
+    padding: 0%;
+}
+
+@media(max-width: 780px) {
+    .text {
+        flex-direction: column;
+        font-size: 15px;
+    }
+}
