@@ -9,11 +9,11 @@ const Footer = () => {
             <div className="footer-info">
                 <div className="info">
                     <h1>Juan Ignacio Solari</h1>
-                    <p>Actualmente en Córdoba Capital 📍</p>
+                    <p>Actualmente en Córdoba Capital. 📍</p>
                 </div>
                 <div className="footer-contact">
                     <h3>Listo para trabajar!</h3>
-                    <p>Estoy 100% a disposición para entrevistas y trabajos remotamente🚀.</p>
+                    <p>Estoy 100% a disposición para entrevistas y trabajos remotamente 🚀</p>
                 </div>
                 <div className="footer-sns">
                     <div className="design-by">Diseño por J. Solari</div>

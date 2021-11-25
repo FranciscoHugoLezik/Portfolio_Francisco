@@ -52,6 +52,11 @@
     padding-top: 10%;
 }
 
+.footer-contact > h3
+{
+    padding-bottom: 3px;
+}
+
 .footer-sns
 {
     width: 70%;
