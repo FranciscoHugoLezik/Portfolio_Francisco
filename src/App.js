@@ -1,9 +1,11 @@
 import React, { useEffect, useState} from 'react';
+import './App.css';
 import Cover from './components/Cover/Cover';
 import NavBar from './components/NavBar/NavBar';
 import About from './components/About/About';
-import './App.css';
 import Slider from './components/Slider/Slider';
+import Text from './components/Text/Text';
+import Footer from './components/Footer/Footer';
 
 function App() {
   const [currentScroll, setCurrentScroll] = useState(0)
@@ -24,6 +26,8 @@ function App() {
       <Cover />
       <About />
       <Slider scrolling={currentScroll}/>
+      <Text scrolling={currentScroll}/>
+      <Footer/>
     </div>
   );
 }
